@@ -1,50 +1,26 @@
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
-        prefixArray = []
-        suffixArray = []
-
-        currProduct = 1
-        for i in range(len(nums)):
-            if i == 0:
-                prefixArray.append(1)
-                continue
-            currProduct = currProduct * nums[i-1]
-            prefixArray.append(currProduct)
+        #do one pass over the array and make a left product and right product array
         
-        currProduct = 1
+        left = []
+        right = []
+
+        curProduct = 1
+        for i in range(len(nums)):
+            left.append(curProduct)
+            curProduct *= nums[i]
+        
+        curProduct = 1
         for i in range(len(nums)-1,-1,-1):
-            if i == len(nums)-1:
-                suffixArray.insert(0,1)
-                continue
-            currProduct = currProduct * nums[i+1]
-            suffixArray.insert(0,currProduct)
-
-        retval = []
-
+            right.append(curProduct)
+            curProduct *= nums[i]
+        
+        reverse = right[::-1]
+        
+        output = []
         for i in range(len(nums)):
-            retval.append(suffixArray[i] * prefixArray[i])
-
-        return retval
-
-        
+            output.append(reverse[i] * left[i])
         
 
+        return output
 
-
-       
-
-        
- 
-        
-
-
-        
-
-       
-
-        
- 
-        
-
-
-        
