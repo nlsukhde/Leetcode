@@ -1,13 +1,29 @@
 class Solution:
-    def isValid(self, s):
-        bracket_map = {"(": ")", "[": "]",  "{": "}"}
-        open_par = set(["(", "[", "{"])
+    def isValid(self, s: str) -> bool:
+        
+        bracketmap = {
+            ')': '(',
+            '}': '{',
+            ']': '['
+        }
+
         stack = []
-        for i in s:
-            if i in open_par:
-                stack.append(i)
-            elif stack and i == bracket_map[stack[-1]]:
+
+        for char in s:
+            if char not in bracketmap:
+                stack.append(char)
+            #close bracket case
+            elif char in bracketmap and len(stack) > 0:
+                if stack[-1] == bracketmap[char]:
                     stack.pop()
+                else:
+                    return False
             else:
                 return False
-        return stack == []
+        
+        if len(stack) == 0:
+            return True
+        else:
+            return False
+
+        
