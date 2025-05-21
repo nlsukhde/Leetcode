@@ -11,4 +11,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0206-reverse-linked-list](https://github.com/nlsukhde/Leetcode/tree/master/0206-reverse-linked-list) |
+## String
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/nlsukhde/Leetcode/tree/master/0020-valid-parentheses) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/nlsukhde/Leetcode/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
