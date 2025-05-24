@@ -1,28 +1,30 @@
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
-        nums.sort()
-        highest = 1
-        current = 1
-        j = 0
+
+        highest = 0
+        current = 0
         
-        if(len(nums) == 0):
-            return 0
-        elif(len(nums) == 1):
-            return 1
-        print(nums)
-        for i in range(1,len(nums)):
-            print(str(nums[i]))
-            print(str(1 + nums[j]))
-            if(nums[i] == 1 + nums[j]):
-                current += 1
-                highest = max(highest, current)
-            elif(nums[i] == nums[j]):
-                pass
-            else:
+        hashset = set(nums)
+
+        for num in hashset:
+            #we are at the start of a sequence
+            if num - 1 not in hashset:
                 current = 1
-            
-            j += 1
-        
+                contender = num
+                highest = max(current, highest)
+                while contender + 1 in hashset:
+                    current +=1
+                    highest = max(current,highest)
+                    contender += 1
+
         return highest
+
+
+
+
+
+
+
+    
 
         
