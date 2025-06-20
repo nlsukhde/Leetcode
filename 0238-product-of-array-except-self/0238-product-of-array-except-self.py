@@ -3,7 +3,6 @@ class Solution:
 
         leftArray = []
         rightArray = []
-        finalArray = []
 
         product = 1
         for i in range(len(nums)):
@@ -18,9 +17,9 @@ class Solution:
             product *= nums[i]
         
         for i in range(len(nums)):
-            finalArray.append(leftArray[i] * rightArray[i])
+            leftArray[i] = leftArray[i] * rightArray[i]
         
-        return finalArray
+        return leftArray
 
 
 
