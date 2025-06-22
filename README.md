@@ -17,6 +17,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/nlsukhde/Leetcode/tree/master/0020-valid-parentheses) |
+| [0049-group-anagrams](https://github.com/nlsukhde/Leetcode/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/nlsukhde/Leetcode/tree/master/0242-valid-anagram) |
 ## Stack
 |  |
@@ -34,6 +35,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/nlsukhde/Leetcode/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/nlsukhde/Leetcode/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/nlsukhde/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0238-product-of-array-except-self](https://github.com/nlsukhde/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/nlsukhde/Leetcode/tree/master/1802-number-of-students-unable-to-eat-lunch) |
@@ -50,6 +52,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/nlsukhde/Leetcode/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/nlsukhde/Leetcode/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/nlsukhde/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0242-valid-anagram](https://github.com/nlsukhde/Leetcode/tree/master/0242-valid-anagram) |
 ## Union Find
@@ -75,5 +78,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/nlsukhde/Leetcode/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/nlsukhde/Leetcode/tree/master/0242-valid-anagram) |
 <!---LeetCode Topics End-->
