@@ -1,13 +1,26 @@
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
-        list1 = list(s) 
-        list2 = list(t)
 
-        list1.sort()
-        list2.sort()
+        smap = {}
+        tmap = {}
 
-        if(list1 == list2):
+        for letter in s:
+            if letter in smap:
+                smap[letter] += 1
+            else:
+                smap[letter] = 1
+        
+        for letter in t:
+            if letter in tmap:
+                tmap[letter] += 1
+            else:
+                tmap[letter] = 1
+
+        if smap == tmap:
             return True
-        else:
-            return False
+        
+        return False
+        
 
+        
+        
