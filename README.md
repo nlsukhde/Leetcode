@@ -17,6 +17,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/nlsukhde/Leetcode/tree/master/0020-valid-parentheses) |
+| [0242-valid-anagram](https://github.com/nlsukhde/Leetcode/tree/master/0242-valid-anagram) |
 ## Stack
 |  |
 | ------- |
@@ -48,6 +49,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/nlsukhde/Leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [0242-valid-anagram](https://github.com/nlsukhde/Leetcode/tree/master/0242-valid-anagram) |
 ## Union Find
 |  |
 | ------- |
@@ -68,4 +70,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/nlsukhde/Leetcode/tree/master/0238-product-of-array-except-self) |
+## Sorting
+|  |
+| ------- |
+| [0242-valid-anagram](https://github.com/nlsukhde/Leetcode/tree/master/0242-valid-anagram) |
 <!---LeetCode Topics End-->
