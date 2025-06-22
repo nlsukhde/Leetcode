@@ -33,6 +33,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/nlsukhde/Leetcode/tree/master/0001-two-sum) |
 | [0128-longest-consecutive-sequence](https://github.com/nlsukhde/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0238-product-of-array-except-self](https://github.com/nlsukhde/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/nlsukhde/Leetcode/tree/master/1802-number-of-students-unable-to-eat-lunch) |
@@ -48,6 +49,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/nlsukhde/Leetcode/tree/master/0001-two-sum) |
 | [0128-longest-consecutive-sequence](https://github.com/nlsukhde/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0242-valid-anagram](https://github.com/nlsukhde/Leetcode/tree/master/0242-valid-anagram) |
 ## Union Find
