@@ -1,24 +1,21 @@
-class Solution(object):
-    def groupAnagrams(self, strs):
+class Solution:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
 
-        #map of sortedWOrd -> list of words that when sorted are equal to sorted word
+        #build a hashmap of sortedword -> list of anagrams
 
-        wordMap = {}
+        hashmap = {}
 
-        for word in strs:
-            sortedWord = ''.join(sorted(word))
-            wordMap[sortedWord] = []
+        for string in strs:
+            sortedW = ''.join(sorted(string)) 
+
+            if sortedW in hashmap:
+                hashmap[sortedW].append(string)
+            else:
+                hashmap[sortedW] = [string]
         
-        for word in strs:
-            sortedWord = ''.join(sorted(word))
-
-            if sortedWord in wordMap:
-                wordMap[sortedWord].append(word)
-
         retval = []
 
-        for value in wordMap.values():
-            retval.append(value)
-
-        return retval      
+        for group in hashmap.values():
+            retval.append(group)
         
+        return retval
