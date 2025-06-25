@@ -4,19 +4,18 @@ class Solution:
         #remove all non alphanumeric characters
         #make every letter lower case
 
-        original = list(s)
-        cleaned = []
+        left = 0 
+        right = len(s) - 1
 
-        for character in s:
-            if character.isalnum():
-                lowered = character.lower()
-                cleaned.append(lowered)
-        
-        reversed_list = cleaned[::-1]
-        
-        if reversed_list == cleaned:
-            return True
-            
-        return False
+        while left < right:
 
-        
+            while left<right and not s[left].isalnum():
+                left += 1
+            while right > left and not s[right].isalnum():
+                right -= 1
+            if s[left].lower() != s[right].lower():
+                return False
+            left = left + 1
+            right = right - 1
+
+        return True
