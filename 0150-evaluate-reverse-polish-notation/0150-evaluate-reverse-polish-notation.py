@@ -8,12 +8,13 @@ class Solution:
                 num2 = stack.pop()
                 num1 = stack.pop()
                 if tokens[i] == '/':
-                    output = int(num1/num2)
-                    stack.append(output)
-                else:
-                    strExp = str(num1) + tokens[i] + str(num2)
-                    output = eval(strExp)
-                    stack.append(output)
+                    stack.append(int(num1/num2))
+                elif tokens[i] == '+':
+                    stack.append(num1+num2)
+                elif tokens[i] == '-':
+                    stack.append(num1-num2)
+                elif tokens[i] == '*':
+                    stack.append(num1*num2)
             else:
                 stack.append(int(tokens[i]))
 
