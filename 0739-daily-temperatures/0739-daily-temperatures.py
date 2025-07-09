@@ -6,10 +6,10 @@ class Solution:
         stack = []
 
         for i in range(len(temperatures)):
-            while stack and temperatures[i] > stack[-1][0]:
-                retval[stack[-1][1]] = i - stack[-1][1]
-                stack.pop()
-            stack.append((temperatures[i],i))
+            while stack and temperatures[i] > temperatures[stack[-1]]:
+                index = stack.pop()
+                retval[index] = i - index
+            stack.append(i)
 
         return retval
         
