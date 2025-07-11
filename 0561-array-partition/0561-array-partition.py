@@ -1,17 +1,12 @@
 class Solution:
     def arrayPairSum(self, nums: List[int]) -> int:
-        #sort the array
-        #loop through in twos 
-        #keep adding the max
-
-        sum = 0
         nums.sort()
+        total_sum = 0
 
-        for i in range(0,len(nums),2):
-            themin = min(nums[i],nums[i+1])
-            sum += themin
+        for i in range(len(nums)-1,-1,-2):
+           total_sum += min(nums[i],nums[i-1])
         
-        return sum
+        return total_sum
 
-
+            
         
