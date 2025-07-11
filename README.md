@@ -45,6 +45,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0150-evaluate-reverse-polish-notation](https://github.com/nlsukhde/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/nlsukhde/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0238-product-of-array-except-self](https://github.com/nlsukhde/Leetcode/tree/master/0238-product-of-array-except-self) |
+| [0561-array-partition](https://github.com/nlsukhde/Leetcode/tree/master/0561-array-partition) |
 | [0739-daily-temperatures](https://github.com/nlsukhde/Leetcode/tree/master/0739-daily-temperatures) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/nlsukhde/Leetcode/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 ## Queue
@@ -90,6 +91,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0015-3sum](https://github.com/nlsukhde/Leetcode/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/nlsukhde/Leetcode/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/nlsukhde/Leetcode/tree/master/0242-valid-anagram) |
+| [0561-array-partition](https://github.com/nlsukhde/Leetcode/tree/master/0561-array-partition) |
 ## Two Pointers
 |  |
 | ------- |
@@ -105,8 +107,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/nlsukhde/Leetcode/tree/master/0011-container-with-most-water) |
+| [0561-array-partition](https://github.com/nlsukhde/Leetcode/tree/master/0561-array-partition) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0739-daily-temperatures](https://github.com/nlsukhde/Leetcode/tree/master/0739-daily-temperatures) |
+## Counting Sort
+|  |
+| ------- |
+| [0561-array-partition](https://github.com/nlsukhde/Leetcode/tree/master/0561-array-partition) |
 <!---LeetCode Topics End-->
