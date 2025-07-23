@@ -24,6 +24,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/nlsukhde/Leetcode/tree/master/0020-valid-parentheses) |
+| [0042-trapping-rain-water](https://github.com/nlsukhde/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/nlsukhde/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/nlsukhde/Leetcode/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/nlsukhde/Leetcode/tree/master/0225-implement-stack-using-queues) |
@@ -41,6 +42,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0004-median-of-two-sorted-arrays](https://github.com/nlsukhde/Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0011-container-with-most-water](https://github.com/nlsukhde/Leetcode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/nlsukhde/Leetcode/tree/master/0015-3sum) |
+| [0042-trapping-rain-water](https://github.com/nlsukhde/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/nlsukhde/Leetcode/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/nlsukhde/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/nlsukhde/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -77,6 +79,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/nlsukhde/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0070-climbing-stairs](https://github.com/nlsukhde/Leetcode/tree/master/0070-climbing-stairs) |
 ## Memoization
 |  |
@@ -98,6 +101,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0011-container-with-most-water](https://github.com/nlsukhde/Leetcode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/nlsukhde/Leetcode/tree/master/0015-3sum) |
+| [0042-trapping-rain-water](https://github.com/nlsukhde/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0125-valid-palindrome](https://github.com/nlsukhde/Leetcode/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/nlsukhde/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 ## Binary Search
@@ -113,6 +117,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/nlsukhde/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0739-daily-temperatures](https://github.com/nlsukhde/Leetcode/tree/master/0739-daily-temperatures) |
 ## Counting Sort
 |  |
