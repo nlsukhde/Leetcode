@@ -1,26 +1,27 @@
 class Solution:
     def isValid(self, s: str) -> bool:
+        
+        bracketmap = {
+            ')': '(',
+            '}': '{',
+            ']': '['
+        }
+
         stack = []
 
         for char in s:
-            if char == '(':
-                stack.append('(')
-            elif char == '{':
-                stack.append('{')
-            elif char == '[':
-                stack.append('[')
-            elif char == ')' and stack and stack[-1] == '(':
-                stack.pop()
-            elif char == '}' and stack and stack[-1] == '{':
-                stack.pop()
-            elif char == ']' and stack and stack[-1] == '[':
-                stack.pop()
+            if char not in bracketmap:
+                stack.append(char)
+            #close bracket case
+            elif char in bracketmap and len(stack) > 0:
+                if stack[-1] == bracketmap[char]:
+                    stack.pop()
+                else:
+                    return False
             else:
                 return False
-            
-            print(stack)  # Optional debug statement
-
-        return len(stack) == 0
-
-
         
+        if len(stack) == 0:
+            return True
+  
+        return False
