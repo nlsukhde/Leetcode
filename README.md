@@ -52,6 +52,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0561-array-partition](https://github.com/nlsukhde/Leetcode/tree/master/0561-array-partition) |
 | [0682-baseball-game](https://github.com/nlsukhde/Leetcode/tree/master/0682-baseball-game) |
 | [0739-daily-temperatures](https://github.com/nlsukhde/Leetcode/tree/master/0739-daily-temperatures) |
+| [0792-binary-search](https://github.com/nlsukhde/Leetcode/tree/master/0792-binary-search) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/nlsukhde/Leetcode/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 ## Queue
 |  |
@@ -112,6 +113,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/nlsukhde/Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/nlsukhde/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0792-binary-search](https://github.com/nlsukhde/Leetcode/tree/master/0792-binary-search) |
 ## Greedy
 |  |
 | ------- |
