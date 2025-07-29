@@ -5,7 +5,7 @@ class Solution:
         for op in operations:
             print(stack)
             if op == "+":
-                stack.append(int(stack[-1]) + int(stack[len(stack)-2]))
+                stack.append(int(stack[-1]) + int(stack[-2]))
             elif op == "D":
                 doubled = int(stack[-1]) * 2
                 stack.append(doubled)
