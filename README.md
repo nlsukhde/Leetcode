@@ -28,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0150-evaluate-reverse-polish-notation](https://github.com/nlsukhde/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/nlsukhde/Leetcode/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/nlsukhde/Leetcode/tree/master/0225-implement-stack-using-queues) |
+| [0682-baseball-game](https://github.com/nlsukhde/Leetcode/tree/master/0682-baseball-game) |
 | [0739-daily-temperatures](https://github.com/nlsukhde/Leetcode/tree/master/0739-daily-temperatures) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/nlsukhde/Leetcode/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 ## Design
@@ -49,6 +50,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/nlsukhde/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0238-product-of-array-except-self](https://github.com/nlsukhde/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0561-array-partition](https://github.com/nlsukhde/Leetcode/tree/master/0561-array-partition) |
+| [0682-baseball-game](https://github.com/nlsukhde/Leetcode/tree/master/0682-baseball-game) |
 | [0739-daily-temperatures](https://github.com/nlsukhde/Leetcode/tree/master/0739-daily-temperatures) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/nlsukhde/Leetcode/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 ## Queue
@@ -59,6 +61,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Simulation
 |  |
 | ------- |
+| [0682-baseball-game](https://github.com/nlsukhde/Leetcode/tree/master/0682-baseball-game) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/nlsukhde/Leetcode/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 ## Hash Table
 |  |
